@@ -8,6 +8,8 @@ class Cat(object):
         self.age = age
 
     def run(self):
-        print('{self.name is self.age}'.format(self))
+        print('{self.name} is {self.age}'.format(**locals()))
 
 
+cat = Cat('pet', 12)
+cat.run()
