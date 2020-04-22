@@ -17,4 +17,6 @@ class Cat(object):
 cat = Cat('pet', 12)
 cat.run() 
 
-print(cat.sort_file([('a', 4), ('b', 2), ('c', 1)]))
+print(cat.sort_file([('a', 4), ('b', 2), ('c', 1)]))  
+
+print('hello world')
