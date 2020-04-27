@@ -19,6 +19,8 @@ class Book:
             staty = '借出'
         return '书名：%s,作者：%s,评语：%s,状态：%s'%(self.name,self.author,self.comment,staty)
 
+book1 = Book('惶然录', '费尔南多·佩索阿', '一个迷失方向且濒于崩溃的灵魂的自我启示')
+print(book1.__dict__)
 
 class Bookmanager:
    
