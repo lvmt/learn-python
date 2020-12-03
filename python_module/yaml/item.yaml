@@ -1,0 +1,7 @@
+chip_info:
+  pancancer688:
+    flank10:  'pancancer688/flank0'
+    flank20: 'pancancer688/flank20'
+  oseq_leu:
+    flank10: 'oseq_leu/flank10'
+    flank20: 'oseq_leu/flank20'  # the same file.
