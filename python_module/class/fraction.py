@@ -70,6 +70,7 @@ class Fraction(object):
         '''判断小于
         '''
         pass
+    
 
 if __name__ == '__main__':
     f1 = Fraction(3,4)
