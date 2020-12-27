@@ -37,7 +37,9 @@ class Circle:
 
 c = Circle(4.0)
 print(c.radius)
+print(c.__dict__)
 print(c.area)
+print(c.__dict__)
 print('---------')
 print(c.area)
 print('--------')
