@@ -10,6 +10,12 @@
 如何流式读取大文件
 """
 
+import time
+
+
+def cal_time(fun()):
+
+
 
 # 标准做法
 def count_nine(fname):
@@ -24,3 +30,7 @@ def count_nine(fname):
 
 
 
+start = time.time()
+for i in range(1, 20000):
+    count_nine('demo.txt')
+print(time.time() - start)
