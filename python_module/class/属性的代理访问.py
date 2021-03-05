@@ -1,9 +1,16 @@
+<<<<<<< HEAD
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+# @Time 2020/12/27 20:50
+# @File 属性的代理访问.py
+=======
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
 # @Author lvmengting
 # @Time   2021/1/7 17:31
 # @Email  13554221497@163.com
 # @File   属性的代理访问.py
+>>>>>>> 80acac2f556fe96e7eb0f92bb063658a82f88ae9
 
 
 """
@@ -13,20 +20,32 @@
 
 class A:
     def spam(self, x):
+<<<<<<< HEAD
+        pass
+=======
         return x
+>>>>>>> 80acac2f556fe96e7eb0f92bb063658a82f88ae9
 
     def foo(self):
         pass
 
 
 class B1:
+<<<<<<< HEAD
+    """简单的代理"""
+=======
     """简单代理"""
 
+>>>>>>> 80acac2f556fe96e7eb0f92bb063658a82f88ae9
     def __init__(self):
         self._a = A()
 
     def spam(self, x):
+<<<<<<< HEAD
+        # Delegate to the internal self._a instance
+=======
         """delegate to the internal self._a instance"""
+>>>>>>> 80acac2f556fe96e7eb0f92bb063658a82f88ae9
         return self._a.spam(x)
 
     def foo(self):
@@ -35,6 +54,8 @@ class B1:
     def bar(self):
         pass
 
+<<<<<<< HEAD
+=======
 
 class B2:
     """使用__getattr__的代理, 代理方法比较多时候"""
@@ -107,3 +128,4 @@ p = Proxy(s)
 
 p.z = 'abc'
 print(s.z)  # 修改后的值为28
+>>>>>>> 80acac2f556fe96e7eb0f92bb063658a82f88ae9
