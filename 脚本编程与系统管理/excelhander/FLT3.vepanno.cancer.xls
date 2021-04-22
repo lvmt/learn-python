@@ -1,0 +1,99 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v94.5	Unnamed: 1	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14	Unnamed: 15	Unnamed: 16	Unnamed: 17	Unnamed: 18	Unnamed: 19	Unnamed: 20	Unnamed: 21	Unnamed: 22	Unnamed: 23	Unnamed: 24	Unnamed: 25	Unnamed: 26	Unnamed: 27	Unnamed: 28	Unnamed: 29	Unnamed: 30	Unnamed: 31	Unnamed: 32	Unnamed: 33	Unnamed: 34	Unnamed: 35	Unnamed: 36	Unnamed: 37	Unnamed: 38	Unnamed: 39	Unnamed: 40	Unnamed: 41	Unnamed: 42	Unnamed: 43	Unnamed: 44	Unnamed: 45	Unnamed: 46	Unnamed: 47	Unnamed: 48	Unnamed: 49	Unnamed: 50	Unnamed: 51	Unnamed: 52	Unnamed: 53	Unnamed: 54	Unnamed: 55	Unnamed: 56	Unnamed: 57	Unnamed: 58	Unnamed: 59	Unnamed: 60	Unnamed: 61	Unnamed: 62	Unnamed: 63	Unnamed: 64	Unnamed: 65	Unnamed: 66	Unnamed: 67	Unnamed: 68	Unnamed: 69	Unnamed: 70	Unnamed: 71	Unnamed: 72	Unnamed: 73	Unnamed: 74
+## Output produced at 2021-04-06 23:00:55																																																																										
+## Using cache in /jdfstj1/B2C_COM_P1/pipeline/Lung_T/OsmartT/database/vep_cache/homo_sapiens_refseq/94_GRCh37																																																																										
+## Using API version 94, DB version ?																																																																										
+## ensembl-variation version 94.066b102																																																																										
+## ensembl version 94.5c08d90																																																																										
+## ensembl-funcgen version 94.08b0c13																																																																										
+## ensembl-io version 94.8d53275																																																																										
+## refseq version 01_2015																																																																										
+## COSMIC version 81																																																																										
+## 1000genomes version phase3																																																																										
+## sift version sift5.2.2																																																																										
+## gencode version GENCODE 19																																																																										
+## regbuild version 1.0																																																																										
+## ClinVar version 201706																																																																										
+## dbSNP version 150																																																																										
+## ESP version 20141103																																																																										
+## polyphen version 2.2.2																																																																										
+## gnomAD version 170228																																																																										
+## genebuild version 2011-04																																																																										
+## HGMD-PUBLIC version 20164																																																																										
+## assembly version GRCh37.p13																																																																										
+## Column descriptions:																																																																										
+## Uploaded_variation : Identifier of uploaded variant																																																																										
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)																																																																										
+## Allele : The variant allele used to calculate the consequence																																																																										
+## Gene : Stable ID of affected gene																																																																										
+## Feature : Stable ID of feature																																																																										
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature																																																																										
+## Consequence : Consequence type																																																																										
+## cDNA_position : Relative position of base pair in cDNA sequence																																																																										
+## CDS_position : Relative position of base pair in coding sequence																																																																										
+## Protein_position : Relative position of amino acid in protein																																																																										
+## Amino_acids : Reference and variant amino acids																																																																										
+## Codons : Reference and variant codon sequence																																																																										
+## Existing_variation : Identifier(s) of co-located known variants																																																																										
+## IMPACT : Subjective impact classification of consequence type																																																																										
+## DISTANCE : Shortest distance from variant to transcript																																																																										
+## STRAND : Strand of the feature (1/-1)																																																																										
+## FLAGS : Transcript quality flags																																																																										
+## VARIANT_CLASS : SO variant class																																																																										
+## SYMBOL : Gene symbol (e.g. HGNC)																																																																										
+## SYMBOL_SOURCE : Source of gene symbol																																																																										
+## HGNC_ID : Stable identifer of HGNC gene symbol																																																																										
+## BIOTYPE : Biotype of transcript or regulatory feature																																																																										
+## CANONICAL : Indicates if transcript is canonical for this gene																																																																										
+## TSL : Transcript support level																																																																										
+## APPRIS : Annotates alternatively spliced transcripts as primary or alternate based on a range of computational methods																																																																										
+## CCDS : Indicates if transcript is a CCDS transcript																																																																										
+## ENSP : Protein identifer																																																																										
+## SWISSPROT : UniProtKB/Swiss-Prot accession																																																																										
+## TREMBL : UniProtKB/TrEMBL accession																																																																										
+## UNIPARC : UniParc accession																																																																										
+## REFSEQ_MATCH : RefSeq transcript match status																																																																										
+## SOURCE : Source of transcript																																																																										
+## GENE_PHENO : Indicates if gene is associated with a phenotype, disease or trait																																																																										
+## SIFT : SIFT prediction and/or score																																																																										
+## PolyPhen : PolyPhen prediction and/or score																																																																										
+## EXON : Exon number(s) / total																																																																										
+## INTRON : Intron number(s) / total																																																																										
+## DOMAINS : The source and identifer of any overlapping protein domains																																																																										
+## miRNA : SO terms of overlapped miRNA secondary structure feature(s)																																																																										
+## HGVSc : HGVS coding sequence name																																																																										
+## HGVSp : HGVS protein sequence name																																																																										
+## HGVS_OFFSET : Indicates by how many bases the HGVS notations for this variant have been shifted																																																																										
+## AF : Frequency of existing variant in 1000 Genomes combined population																																																																										
+## AFR_AF : Frequency of existing variant in 1000 Genomes combined African population																																																																										
+## AMR_AF : Frequency of existing variant in 1000 Genomes combined American population																																																																										
+## EAS_AF : Frequency of existing variant in 1000 Genomes combined East Asian population																																																																										
+## EUR_AF : Frequency of existing variant in 1000 Genomes combined European population																																																																										
+## SAS_AF : Frequency of existing variant in 1000 Genomes combined South Asian population																																																																										
+## AA_AF : Frequency of existing variant in NHLBI-ESP African American population																																																																										
+## EA_AF : Frequency of existing variant in NHLBI-ESP European American population																																																																										
+## gnomAD_AF : Frequency of existing variant in gnomAD exomes combined population																																																																										
+## gnomAD_AFR_AF : Frequency of existing variant in gnomAD exomes African/American population																																																																										
+## gnomAD_AMR_AF : Frequency of existing variant in gnomAD exomes American population																																																																										
+## gnomAD_ASJ_AF : Frequency of existing variant in gnomAD exomes Ashkenazi Jewish population																																																																										
+## gnomAD_EAS_AF : Frequency of existing variant in gnomAD exomes East Asian population																																																																										
+## gnomAD_FIN_AF : Frequency of existing variant in gnomAD exomes Finnish population																																																																										
+## gnomAD_NFE_AF : Frequency of existing variant in gnomAD exomes Non-Finnish European population																																																																										
+## gnomAD_OTH_AF : Frequency of existing variant in gnomAD exomes other combined populations																																																																										
+## gnomAD_SAS_AF : Frequency of existing variant in gnomAD exomes South Asian population																																																																										
+## MAX_AF : Maximum observed allele frequency in 1000 Genomes, ESP and ExAC/gnomAD																																																																										
+## MAX_AF_POPS : Populations in which maximum allele frequency was observed																																																																										
+## CLIN_SIG : ClinVar clinical significance of the dbSNP variant																																																																										
+## SOMATIC : Somatic status of existing variant																																																																										
+## PHENO : Indicates if existing variant(s) is associated with a phenotype, disease or trait; multiple values correspond to multiple variants																																																																										
+## PUBMED : Pubmed ID(s) of publications that cite existing variant																																																																										
+## MOTIF_NAME : The source and identifier of a transcription factor binding profile (TFBP) aligned at this position																																																																										
+## MOTIF_POS : The relative position of the variation in the aligned TFBP																																																																										
+## HIGH_INF_POS : A flag indicating if the variant falls in a high information position of the TFBP																																																																										
+## MOTIF_SCORE_CHANGE : The difference in motif score of the reference and variant sequences for the TFBP																																																																										
+## custom_cosmic : /jdfstj1/B2C_COM_P1/pipeline/Lung_T/OsmartT/database/VEPanno/cosmic/cosmic_full_sort.vcf.gz (exact)																																																																										
+## custom_cosmic_CNT : CNT field from /jdfstj1/B2C_COM_P1/pipeline/Lung_T/OsmartT/database/VEPanno/cosmic/cosmic_full_sort.vcf.gz																																																																										
+## custom_icgc : /jdfstj1/B2C_COM_P1/pipeline/Lung_T/OsmartT/database/VEPanno/icgc/icgc_normalize_sort.vcf.gz (exact)																																																																										
+## custom_icgc_OCCURRENCE : OCCURRENCE field from /jdfstj1/B2C_COM_P1/pipeline/Lung_T/OsmartT/database/VEPanno/icgc/icgc_normalize_sort.vcf.gz																																																																										
+## custom_clinvar : /jdfstj1/B2C_COM_P1/pipeline/Lung_T/OsmartT/database/VEPanno/clinvar/clinvar.vcf.gz (exact)																																																																										
+## custom_clinvar_CLINSIG : CLINSIG field from /jdfstj1/B2C_COM_P1/pipeline/Lung_T/OsmartT/database/VEPanno/clinvar/clinvar.vcf.gz																																																																										
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	IMPACT	DISTANCE	STRAND	FLAGS	VARIANT_CLASS	SYMBOL	SYMBOL_SOURCE	HGNC_ID	BIOTYPE	CANONICAL	TSL	APPRIS	CCDS	ENSP	SWISSPROT	TREMBL	UNIPARC	REFSEQ_MATCH	SOURCE	GENE_PHENO	SIFT	PolyPhen	EXON	INTRON	DOMAINS	miRNA	HGVSc	HGVSp	HGVS_OFFSET	AF	AFR_AF	AMR_AF	EAS_AF	EUR_AF	SAS_AF	AA_AF	EA_AF	gnomAD_AF	gnomAD_AFR_AF	gnomAD_AMR_AF	gnomAD_ASJ_AF	gnomAD_EAS_AF	gnomAD_FIN_AF	gnomAD_NFE_AF	gnomAD_OTH_AF	gnomAD_SAS_AF	MAX_AF	MAX_AF_POPS	CLIN_SIG	SOMATIC	PHENO	PUBMED	MOTIF_NAME	MOTIF_POS	HIGH_INF_POS	MOTIF_SCORE_CHANGE	custom_cosmic	custom_cosmic_CNT	custom_icgc	custom_icgc_OCCURRENCE	custom_clinvar	custom_clinvar_CLINSIG

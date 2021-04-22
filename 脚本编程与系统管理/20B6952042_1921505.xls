@@ -1,0 +1,4 @@
+,gene,cHGVS,pHGVS,function,case_var_freq,exIn_ID,chr,start,end,ref,alt,mutType,transcript,newFunction,date
+0,CDKN2A,c.304delG,p.A102Rfs*44,frameshift,12.05,EX2,chr9,21971053,21971054,C,.,del,NM_000077.4,frameshift,2021-03-28
+1,TP53,c.586C>T,p.R196*,nonsense,10.63,EX6,chr17,7578262,7578263,G,A,snv,NM_000546.5,nonsense,2021-03-28
+1,TP53,c.586C>T,p.R196*,nonsense,10.63,EX6,chr17,7578262,7578263,G,A,snv,NM_000546.5,nonsense,2021-03-28aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

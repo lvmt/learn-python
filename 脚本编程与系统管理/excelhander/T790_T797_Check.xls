@@ -1,0 +1,5 @@
+MutA	MutB	Type	Support_Reads
+EGFR:c.2369C>T	EGFR:c.2389T>A	Undetect	0|0
+EGFR:c.2369C>T	EGFR:c.2390G>C	Undetect	0|0
+ALK:c.3604G>A	ALK:c.3617C>T	Undetect	0|0
+ALK:c.3586C>A	ALK:c.3604G>A	Undetect	0|0

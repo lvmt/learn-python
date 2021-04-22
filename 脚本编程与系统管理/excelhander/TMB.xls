@@ -1,0 +1,4 @@
+#flag	#Scale	#Gene	cHGVS	pHGVS	Function	Case_var_freq	Function_prediction	Uniport_Position(s)	Uniport_feature_key	Uniport_description	cosmic	determination	FisherTest(alt,ref,ref+&alt+,total)	ExIn_ID	Cosmic2	SIFT	PolyPhen2	Case_ref_readsNum	Case_var_readsNum	Case_var_Positive_readsNum	Case_var_Negative_readsNum	Ctrl_ref_readsNum	Ctrl_var_readsNum	Ctrl_var_Positive_readsNum	Ctrl_var_Negative_readsNum	Chr	Start	End	Ref	Alt	MapLoc	MutType	Gtype	Genotype	Transcript	Tr_type	Protein	EntrezGeneID	Strand	FuncRegion	Flank	Mutect	PlasmaLF	Som_Snp	GatkSom_Idl	None	Case_pos_dep	Ctrl_pos_dep	YES_or_NO	Target_gene	Scale_ctrl
+																																																			
+																																																			
+TMB is too low!																																																			

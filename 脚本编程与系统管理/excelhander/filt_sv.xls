@@ -1,0 +1,1 @@
+Judge:CaseSupport(MapQ:0)/CaseSupport(MapQ:0)	#Gene1	Gene2	BreakPoint1	BreakPoint2	Case_BreakPoint_Support	Ctrl_BreakPoint_Support	Case_PE_Support	Ctrl_PE_Support	Cosmic_Sample_Count	Cosmic_Paper_Count	Sv_Rat	Transcript	Strand	exonIntrNum	Transcript2	Strand2	exonIntrNum2	Gene1_InBedCheck	Gene2_InBedCheck

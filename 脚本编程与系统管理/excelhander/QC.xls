@@ -1,0 +1,76 @@
+Sample_Type	cancer	normal	Unnamed: 3	Unnamed: 4
+Sample_ID	Oseq_Leuk__yeguiming.yeguiming	Oseq_Leuk__yeguiming.yeguiming		HistPlot
+Initial bases on target	586724	586724		
+Average sequencing depth on target	3051.14	747.66		
+				
+Fraction of effective bases on target	29.61%	39.07%		
+Effective bases on target(Mb)	1790.18	438.67		
+Total effective bases(Mb)	6045.54	1122.68		
+				
+Fraction of mapped reads on target(include dups)	44.59%	52.11%		
+Mapped reads on targets(M)	36.89	7.76		
+Total mapped reads(M)	82.72	14.9		
+				
+Fraction of effective reads over target	37.71%	49.03%		
+Effective reads over target(M)	24.42	5.91		
+Total effective reads(M)	64.76	12.06		
+				
+Fraction of uniquely mapped reads on target	39.83%	51.31%		
+Uniquely mapped reads on target(M)	24.42	5.91		
+Total uniquely mapped reads(M)	61.31	11.52		
+				CumuPlot
+Fraction of reads mapped to genome( mapping rate)	99.80%	96.43%		
+Total reads mapped to genome(M)	82.72	14.9		
+Total reads pass low quality check(M)	82.89	15.45		
+				
+				
+Mismatch rate of effective reads on target	0.62%	0.69%		
+Mismatch rate of all effective reads	0.64%	0.63%		
+				
+Duplication rate of reads on target	33.80%	23.86%		
+Duplication rate of all reads	21.72%	19.08%		
+				
+Fraction of target covered with at least 1x	99.81%	99.78%		
+Fraction of target covered with at least 100x	99.75%	99.12%		
+Fraction of target covered with at least 200x	99.67%	97.13%		
+Fraction of target covered with at least 300x	99.45%	93.43%		
+Fraction of target covered with at least 400x	99.22%	87.13%		
+Fraction of target covered with at least 500x	98.97%	77.39%		
+Fraction of target covered with at least 600x	98.64%	66.43%		
+Fraction of target covered with at least 700x	98.31%	54.98%		
+Fraction of target covered with at least 800x	97.91%	44.39%		
+Fraction of target covered with at least 900x	97.46%	33.68%		
+Fraction of target covered with at least 1000x	96.99%	22.91%		
+Fraction of target covered with at least 1100x	96.49%	12.90%		
+Fraction of target covered with at least 1200x	95.91%	5.49%		
+Fraction of target covered with at least 1300x	95.16%	1.90%		
+Fraction of target covered with at least 1400x	94.31%	0.68%		
+Fraction of target covered with at least 1500x	93.33%	0.27%		
+Fraction of target covered with at least 1600x	92.14%	0.12%		
+Fraction of target covered with at least 1700x	90.81%	0.07%		
+Fraction of target covered with at least 1800x	89.45%	0.06%		
+Fraction of target covered with at least 1900x	88.02%	0.05%		
+Fraction of target covered with at least 2000x	86.51%	0.04%		
+Fraction of target covered with at least 2100x	84.99%	0.03%		
+				
+AllCorrectReads	  4.17%;  4.68%;  5.00%;  4.11%;	  3.85%;  4.35%;  4.60%;  3.75%;		
+AllError	  1.64%;  1.34%;  1.44%;  1.51%;	  3.43%;  3.12%;  3.25%;  3.24%;		
+AllRightReads	 94.19%; 93.98%; 93.56%; 94.39%;	 92.72%; 92.54%; 92.15%; 93.02%;		
+Insert	170	171		
+RawRead1_TotalNumBase	3865235682	720271794		
+RawRead1_TotalNumReads	41561674	7744858		
+RawRead2_TotalNumBase	3865235682	720271794		
+RawRead2_TotalNumReads	41561674	7744858		
+read1-all-GC(%)	45.13;45.06;45.14;45.12;	47.79;47.71;47.79;47.76;		
+read1-all-Q20(%)	96.79;96.95;96.91;96.84;	96.66;96.84;96.78;96.72;		
+read1-all-Q30(%)	88.09;88.49;88.33;88.29;	87.79;88.24;88.05;88.02;		
+read1-ave-GC(%)	45.11	47.76		
+read1-ave-Q20(%)	96.87	96.75		
+read1-ave-Q30(%)	88.3	88.02		
+read2-all-GC(%)	45.26;45.23;45.24;45.28;	47.89;47.87;47.88;47.92;		
+read2-all-Q20(%)	95.63;96.02;95.95;96.12;	95.22;95.62;95.48;95.64;		
+read2-all-Q30(%)	86.69;87.32;87.34;87.57;	85.94;86.58;86.43;86.68;		
+read2-ave-GC(%)	45.25	47.89		
+read2-ave-Q20(%)	95.93	95.49		
+read2-ave-Q30(%)	87.23	86.41		
+FOLD80	0	0		

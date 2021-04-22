@@ -1,0 +1,18 @@
+Tag	SampleValue	Cut	Judge	DealMethod
+Case-Average sequencing depth on target	3051.14	900	Pass	Nan
+Case-Fraction of target covered with at least 100x	99.75	95	Pass	Nan
+Case-read1-ave-Q20(%)	96.87	95	Pass	Nan
+Case-read1-ave-Q30(%)	88.3	80	Pass	Nan
+Case-read2-ave-Q20(%)	95.93	84	Pass	Nan
+Case-read2-ave-Q30(%)	87.23	75	Pass	Nan
+Ctrl-Average sequencing depth on target	747.66	300	Pass	Nan
+raw_gact_rat(%)	1.85	30	Pass	Nan
+filt_gact_rat(%)	50.0	70	Pass	Nan
+raw_gtca_rat(%)	2.44	30	Pass	Nan
+filt_gtca_rat(%)	16.67	70	Pass	Nan
+miss-MSI-ImportSite-Cover	4.0	0	UnPass	Remake library
+CtrlPollution(1%)	0.0	7	Pass	Nan
+CtrlPollution(3%)	0.0	3	Pass	Nan
+CasePollution(1%)	0.0	7	Pass	Nan
+CasePollution(3%)	0.0	3	Pass	Nan
+MismatchIn21QC	0.0	3	Pass	Nan
